@@ -1,16 +1,16 @@
-# Комманда /geolocate
-Путь `command.yml > geolocate`
+# Command /geolocate
+Path `command.yml > geolocate`
 
-## Пояснение
-Комманда для отслеживания IP-адреса и получения информации об игроке
+## Explanation
+Command to track IP address and get information about a player
 ![command geolocate](/commandgeolocate.png)
 
-## Редактирование
+## Editing
 ```yaml
 <command.geolocate>
 ```
 
-### По умолчанию
+### Default setting
 ```yaml
 geolocate:
   enable: true
@@ -25,10 +25,10 @@ geolocate:
     enable: false
 ```
 
-## Параметры
+## Parameters
 
-- [Локализация](/docs/localizations/ru_ru/command/geolocate/)
-- [Права](/docs/permission/command/geolocate/)
+- [Localisation](/docs/localizations/ru_ru/command/geolocate/)
+- [Permissions](/docs/permission/command/geolocate/)
 
 <!--@include: @/parts/enable.md-->
 <!--@include: @/parts/suggestOfflinePlayers.md-->

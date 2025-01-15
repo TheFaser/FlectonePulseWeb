@@ -1,7 +1,7 @@
 ### `aliases`
 
-Список псевдонимов для использования комманды
+List of aliases for using the command
 
-::: tip ПСЕВДОНИМЫ МОГУТ БЫТЬ ЛЮБЫМИ
-Например `newcommand`, `новаякоманда`, `бан`, `ми` и т.д.
+::: tip ALIASES CAN BE ANYTHING
+For example `newcommand`, `oldcommand`, `ban`, `moo` etc.
 :::

@@ -1,19 +1,19 @@
-# Комманда /ban
-Путь `command.yml > ban`
+# Command /ban
+Path `command.yml > ban`
 
-## Пояснение
-Комманда для того, чтобы заблокировать игрока
+## Explanation
+Command to block a player
 ![command ban](/commandban.png)
 
-От лица игрока
+On behalf of the player
 ![command ban player](/commandbanplayer.png)
 
-## Редактирование
+## Editing
 ```yaml
 <command.ban>
 ```
 
-### По умолчанию
+### Default
 ```yaml
 ban:
   enable: true
@@ -31,17 +31,16 @@ ban:
     enable: false
 ```
 
-## Параметры
-
-- [Локализация](/docs/localizations/ru_ru/command/ban/)
-- [Права](/docs/permission/command/ban/)
+## Options
+- [Localisation](/docs/localizations/ru_ru/command/ban/)
+- [Permission](/docs/permission/command/ban/)
 
 <!--@include: @/parts/enable.md-->
 <!--@include: @/parts/suggestOfflinePlayers.md-->
 
 ### `show-connection-attempts`
 
-Если включено, то будет показывать сообщение, что заблокированный игрок пытался подключиться
+If enabled, it will show a message that the blocked player tried to connect
 ![command ban connect](/commandbanconnect.png)
 
 <!--@include: @/parts/range.md-->

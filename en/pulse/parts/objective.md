@@ -1,9 +1,9 @@
-## Режимы значений
-| Режим    | Что возвращает                       |
-|----------|--------------------------------------|
-| `HEALTH` | Текущее значение ХП игрока           |
-| `LEVEL`  | Текущее значение уровня игрока       |
-| `FOOD`   | Текущее значение насыщенности игрока |
-| `PING`   | Текущий пинг игрока                  |
-| `ARMOR`  | Текущее значение брони игрока        |
-| `ATTACK` | Текущее значение урона игрока        |
+## Value Modes
+| Modus    | What's returning                      |
+|----------|---------------------------------------|
+| `HEALTH` | Current value of player HP            |
+| `LEVEL`  | Current value of the player XP        |
+| `FOOD`   | Current saturation value of the player|
+| `PING`   | Current player ping                   |
+| `ARMOR`  | Current value of player armour        |
+| `ATTACK` | Current player damage value           |

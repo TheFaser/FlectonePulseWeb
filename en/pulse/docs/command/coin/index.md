@@ -1,16 +1,16 @@
-# Комманда /coin
-Путь `command.yml > coin`
+# Command /coin
+Path `command.yml > coin`
 
 ## Пояснение
-Комманда для подбрасывания монетки
+The coin flip command
 ![command coin](/commandcoin.png)
 
-## Редактирование
+## Editing
 ```yaml
 <command.coin>
 ```
 
-### По умолчанию
+### Default setting
 ```yaml
 coin:
   enable: true
@@ -26,16 +26,16 @@ coin:
     enable: false
 ```
 
-## Параметры
+## Parameters
 
-- [Локализация](/docs/localizations/ru_ru/command/coin/)
-- [Права](/docs/permission/command/coin/)
+- [Localisation](/docs/localizations/ru_ru/command/coin/)
+- [Permissions](/docs/permission/command/coin/)
 
 <!--@include: @/parts/enable.md-->
 
 ### `draw`
 
-Включает маленький шанс (`1%` от `101%`) выпадения монетки на ребро
+Includes a small chance (`1%` of `101%`) of dropping a coin on the edge
 
 <!--@include: @/parts/range.md-->
 <!--@include: @/parts/aliases.md-->

@@ -1,17 +1,17 @@
-# Комманда /chatcolor
-Путь `command.yml > chatcolor`
+# Command /chatcolor
+Path `command.yml > chatcolor`
 
-## Пояснение
-Комманда для смены [цветов](/docs/config/tag/color/)
+## Explanation
+Command to change [colours](/docs/config/tag/color/)
 ![command chatcolor](/commandchatcolor.png)
 
 
-## Редактирование
+## Editing
 ```yaml
 <command.chatcolor>
 ```
 
-### По умолчанию
+### Default
 ```yaml
 chatcolor:
   enable: true
@@ -25,10 +25,10 @@ chatcolor:
     enable: false
 ```
 
-## Параметры
+## Options
 
-- [Локализация](/docs/localizations/ru_ru/command/chatcolor/)
-- [Права](/docs/permission/command/chatcolor/)
+- [Localisation](/docs/localizations/ru_ru/command/chatcolor/)
+- [Permission](/docs/permission/command/chatcolor/)
 
 <!--@include: @/parts/enable.md-->
 <!--@include: @/parts/aliases.md-->

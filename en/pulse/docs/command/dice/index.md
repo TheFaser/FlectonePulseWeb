@@ -1,16 +1,16 @@
-# Комманда /dice
-Путь `command.yml > dice`
+# Command /dice
+Path `command.yml > dice`
 
-## Пояснение
-Комманда для броска кубиков на удачу
+## Explanation
+The command to roll the dice for good luck
 ![command dice](/commanddice.png)
 
-## Редактирование
+## Editing
 ```yaml
 <command.dice>
 ```
 
-### По умолчанию
+### Default setting
 ```yaml
 dice:
   enable: true
@@ -27,21 +27,21 @@ dice:
     enable: false
 ```
 
-## Параметры
+## Parameters
 
-- [Локализация](/docs/localizations/ru_ru/command/dice/)
-- [Права](/docs/permission/command/dice/)
+- [Localisation](/docs/localizations/ru_ru/command/dice/)
+- [Permissions](/docs/permission/command/dice/)
 
 <!--@include: @/parts/enable.md-->
 <!--@include: @/parts/range.md-->
 
 ### `min`
 
-Минимальное количество кубиков
+Minimum quantity of cubes
 
 ### `max`
 
-Максимальное количество кубиков
+Maximum quantity of cubes
 
 <!--@include: @/parts/aliases.md-->
 <!--@include: @/parts/destination.md-->

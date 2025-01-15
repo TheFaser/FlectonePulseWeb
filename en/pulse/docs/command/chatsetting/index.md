@@ -1,17 +1,17 @@
-# Комманда /chatsetting
+# Command /chatsetting
 Путь `command.yml > chatsetting`
 
-## Пояснение
-Комманда для настройки чата
+## Explanation
+Command to configure the chat room
 ![command chatsetting](/commandchatsetting.png)
 
 
-## Редактирование
+## Editing
 ```yaml
 <command.chatsetting>
 ```
 
-### По умолчанию
+### Default setting
 ```yaml
 chatsetting:
   enable: true
@@ -187,29 +187,29 @@ chatsetting:
     enable: false
 ```
 
-## Параметры
+## Parameters
 
-- [Локализация](/docs/localizations/ru_ru/command/chatsetting/)
-- [Права](/docs/permission/command/chatsetting/)
+- [Localisation](/docs/localizations/ru_ru/command/chatsetting/)
+- [Permissions](/docs/permission/command/chatsetting/)
 
 <!--@include: @/parts/enable.md-->
 <!--@include: @/parts/enable.md-->
 
 ### `settings`
 
-Список настроек, которые могут быть изменены
+List of settings that can be changed
 
-::: tip Пример настройки на `TELL`
+::: tip Example of setting to `TELL`
 #### `slot`
 
-Слот инвентаря, в котором будет настройка
+The inventory slot in which the customisation will take place
 
 #### `materials`
 
-Список материалов, которые будут использованы для отображения состояния настройки
+List of materials to be used to display the setting status
 
-`LIME_CONCRETE` первый материал, отображается когда настройка включена <br>
-`RED_CONCRETE` второй материал, отображается когда настройка выключена
+`LIME_CONCRETE` first material, displayed when the setting is enabled <br>
+`RED_CONCRETE` second material, displayed when the setting is switched off
 
 :::
 

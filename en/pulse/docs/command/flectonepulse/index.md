@@ -1,17 +1,17 @@
-# Комманда /flectonepulse
-Путь `command.yml > flectonepulse`
+# Command /flectonepulse
+Path `command.yml > flectonepulse`
 
-## Пояснение
-Главная комманда плагина `FlectonePulse`
+## Explanation
+Main plugin command `FlectonePulse`
 ![command flectonepulse](/commandflectonepulse.png)
 
 
-## Редактирование
+## Editing
 ```yaml
 <command.flectonepulse>
 ```
 
-### По умолчанию
+### Default setting
 ```yaml
 flectonepulse:
   enable: true
@@ -26,10 +26,10 @@ flectonepulse:
     enable: false
 ```
 
-## Параметры
+## Parameters
 
-- [Локализация](/docs/localizations/ru_ru/command/flectonepulse/)
-- [Права](/docs/permission/command/flectonepulse/)
+- [Localisation](/docs/localizations/ru_ru/command/flectonepulse/)
+- [Permission](/docs/permission/command/flectonepulse/)
 
 <!--@include: @/parts/enable.md-->
 <!--@include: @/parts/aliases.md-->

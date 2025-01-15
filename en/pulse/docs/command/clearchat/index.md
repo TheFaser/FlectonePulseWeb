@@ -1,16 +1,16 @@
-# Комманда /clearchat
-Путь `command.yml > clearchat`
+# Command /clearchat
+Path `command.yml > clearchat`
 
-## Пояснение
-Комманда для очищения чата
+## Explanation
+Command to clear chat
 ![command clearchat](/commandclearchat.png)
 
-## Редактирование
+## Editing
 ```yaml
 <command.clearchat>
 ```
 
-### По умолчанию
+### Default setting
 ```yaml
 clearchat:
   enable: true
@@ -24,10 +24,10 @@ clearchat:
     enable: false
 ```
 
-## Параметры
+## Parameters
 
-- [Локализация](/docs/localizations/ru_ru/command/clearchat/)
-- [Права](/docs/permission/command/clearchat/)
+- [Localisation](/docs/localizations/ru_ru/command/clearchat/)
+- [Permissions](/docs/permission/command/clearchat/)
 
 <!--@include: @/parts/enable.md-->
 <!--@include: @/parts/aliases.md-->

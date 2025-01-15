@@ -1,16 +1,16 @@
-# Комманда /banlist
-Путь `command.yml > banlist`
+# Command /banlist
+Path `command.yml > banlist`
 
-## Пояснение
-Комманда для того, чтобы посмотреть список блокировок
+## Explanation
+Command to see the list of blockings
 ![command banlist](/commandbanlist.png)
 
-## Редактирование
+## Editing
 ```yaml
 <command.banlist>
 ```
 
-### По умолчанию
+### Default
 ```yaml
 banlist:
   enable: true
@@ -23,10 +23,10 @@ banlist:
     enable: false
 ```
 
-## Параметры
+## Options
 
-- [Локализация](/docs/localizations/ru_ru/command/banlist/)
-- [Права](/docs/permission/command/banlist/)
+- [Localisation](/docs/localizations/ru_ru/command/banlist/)
+- [Permission](/docs/permission/command/banlist/)
 
 <!--@include: @/parts/enable.md-->
 <!--@include: @/parts/perPage.md-->

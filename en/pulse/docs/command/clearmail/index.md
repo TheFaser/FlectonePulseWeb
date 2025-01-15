@@ -1,16 +1,16 @@
-# Комманда /clearmail
-Путь `command.yml > clearmail`
+# Command /clearmail
+Path `command.yml > clearmail`
 
-## Пояснение
-Комманда для удаления отправленных [писем](/docs/commands/mail/)
+## Explanation
+Command to delete sent [mails](/docs/commands/mail/)
 ![command clearmail](/commandclearmail.png)
 
-## Редактирование
+## Editing
 ```yaml
 <command.clearmail>
 ```
 
-### По умолчанию
+### Default setting
 ```yaml
 clearmail:
   enable: true
@@ -24,10 +24,10 @@ clearmail:
     enable: false
 ```
 
-## Параметры
+## Parameters
 
-- [Локализация](/docs/localizations/ru_ru/command/clearmail/)
-- [Права](/docs/permission/command/clearmail/)
+- [Localisation](/docs/localizations/ru_ru/command/clearmail/)
+- [Permissions](/docs/permission/command/clearmail/)
 
 <!--@include: @/parts/enable.md-->
 <!--@include: @/parts/aliases.md-->

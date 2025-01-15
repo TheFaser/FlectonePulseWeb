@@ -1,6 +1,6 @@
 ### `suggest-offline-players`
 
-Если включено, то подсказывает все ники игроков, кто был на сервере, иначе только ники игроков, которые в сети
-::: tip ПРИМЕЧАНИЕ
-Это влияет только на подсказку текста
+If enabled, it prompts all the nicknames of players who were on the server, otherwise only the nicknames of players who are online
+::: tip NOTE
+This only affects the text hint
 :::

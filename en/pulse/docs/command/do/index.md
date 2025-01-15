@@ -1,16 +1,16 @@
-# Комманда /do
-Путь `command.yml > do`
+# Command /do
+Path `command.yml > do`
 
-## Пояснение
-Комманда для выполнения действия благодаря игроку
+## Explanation
+Command to perform an action due to a player
 ![command do](/commanddo.png)
 
-## Редактирование
+## Editing
 ```yaml
 <command.do>
 ```
 
-### По умолчанию
+### Default setting
 ```yaml
 do:
   enable: true
@@ -25,10 +25,10 @@ do:
     enable: false
 ```
 
-## Параметры
+## Parameters
 
-- [Локализация](/docs/localizations/ru_ru/command/do/)
-- [Права](/docs/permission/command/do/)
+- [Localisation](/docs/localizations/ru_ru/command/do/)
+- [Permissions](/docs/permission/command/do/)
 
 <!--@include: @/parts/enable.md-->
 <!--@include: @/parts/range.md-->

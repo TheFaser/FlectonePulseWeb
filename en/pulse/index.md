@@ -3,38 +3,38 @@ layout: home
 
 hero:
   name: "FlectonePulse"
-  tagline: <white>Это серверный менеджер сообщений, нацеленный на упрощение настройки сервера
+  tagline: <white>It is a server-side message manager aimed at simplifying server configuration 
   image:
     src: /platforms.svg
   actions:
     - theme: brand
-      text: Техническая поддержка
+      text: Technical support
       link: https://boosty.to/thefaser
     - theme: alt
-      text: Документация
+      text: Documentation
       link: /docs/
     - theme: alt
-      text: Скачать
+      text: Download
       link: https://modrinth.com/plugin/flectonepulse/versions/
 
 features:
   - icon: 
       width: 290
       src: /caps.png
-    title: Настройка множества сообщений
-    details: Настрой почти любое сообщение, которое видит твой игрок. Любое действие FlectonePulse можно отключить
+    title: Multiple message setup
+    details: Customize almost any message your player sees. Any FlectonePulse action can be disabled
     link: /docs/message/
   - icon:
       width: 500
       src: /commandtictactoe.png
-    title: Более 30 интересных комманд
-    details: Сделай чат более удобным в использовании. Игроки также смогут использовать встроенные мини-игры
+    title: More than 30 interesting teams
+    details: Make chat more user-friendly. Players will also be able to use the built-in mini-games
     link: /docs/command/
   - icon:
       width: 500
       src: /discordmessage.png
-    title: Интеграция с другими проектами
-    details: Позволь игрокам общаться на разных платформах. Полноценные интеграции с Discord, Twitch и Telegram
+    title: Integration with other projects
+    details: Allow players to communicate across platforms. Full integrations with Discord, Twitch and Telegram
     link: /docs/integration/
 ---
 

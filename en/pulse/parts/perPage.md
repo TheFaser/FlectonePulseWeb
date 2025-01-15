@@ -1,3 +1,3 @@
 ### `per-page`
 
-Количество компонентов на одной странице
+Number of components on a page

@@ -1,23 +1,23 @@
 ### `destination`
 
-Куда будет отправлено сообщение
+Where the message will be sent
 
 | Тип          | Пояснение                                |
 |--------------|------------------------------------------|
-| `ACTION_BAR` | Сообщение над инвентарём игрока          |
-| `BOSS_BAR`   | Сообщение в верхней части экрана         |
-| `BRAND`      | Сообщение в F3                           |
-| `CHAT`       | Сообщение в чат                          |
-| `TITLE`      | Сообщение на весь экран                  |
-| `SUBTITLE`   | Сообщение на весь экран (нижняя строчка) |
-| `TAB_HEADER` | Сообщение в ТАБ (сверху)                 |
-| `TAB_FOOTER` | Сообщение в ТАБ (снизу)                  |
+| `ACTION_BAR` | message above the player's inventory     |
+| `BOSS_BAR`   | Message at the top of the screen         |
+| `BRAND`      | Message in F3                            |
+| `CHAT`       | Massage in chat                          |
+| `TITLE`      | Full screen message                      |
+| `SUBTITLE`   | Full screen massage (bottom line) |
+| `TAB_HEADER` | Massege in TAB (Top)                 |
+| `TAB_FOOTER` | Massege in TAB (Bottom)                  |
 
-::: tip КАК ПОМЕНЯТЬ НАЗНАЧЕНИЕ?
-Замени значение `type: сюды` и перезапусти `FlectonePulse` с помощью комманды `/flectonepulse reload`, дополнительные настройки появятся ПОСЛЕ ПЕРЕЗАГРУЗКИ
+::: tip HOW TO CHANGE DESTINATION?
+ Replase `type: ... ` and restart `FlectonePulse` by mean of command `/flectonepulse reload`, additional settings will appear AFTER a restart
 :::
 
-Дополнительной настройки не требуют
+No further customization required
 ```yaml
 - ACTION_BAR
 - BRAND
@@ -26,7 +26,7 @@
 - TAB_FOOTER
 ```
 
-::: details Настройка `BOSS_BAR`
+::: details setting `BOSS_BAR`
 
 ```yaml
 destination:
@@ -42,15 +42,15 @@ destination:
 
 #### `duration`
 
-Длительность отображения сообщения
+Duration of message display
 
 #### `health`
 
-Насколько будет заполнена шкала босс бара
+How full the boss bar scale will be
 
 #### `overlay`
 
-| Тип          | Пояснение                |
+| Type         | Explanation              |
 |--------------|--------------------------|
 | `PROGRESS`   | Одной линией             |
 | `NOTCHED_6`  | Разделённое на 6 частей  |
@@ -60,9 +60,9 @@ destination:
 
 #### `color`
 
-Цвет отображения
+Color display
 
-| Тип      |
+| type     |
 |----------|
 | `PINK`   |
 | `BLUE`   |
@@ -74,21 +74,21 @@ destination:
 
 #### `play-boos-music`
 
-Будет ли музыка при сообщении
+Will there be music when the message
 
 #### `create-world-fog`
 
-Будет ли туман при сообщении
+Will there be a fog on the message
 
 #### `darken-screen`
 
-Будет ли затемнён экран при сообщении
+Whether the screen is dimmed when a message is displayed
 :::
 
-::: details Настройка `TITLE` (или `SUBTITLE`)
+::: details Setting `TITLE` (or `SUBTITLE`)
 ```yaml
 destination:
-  type: TITLE (или SUBTITLE)
+  type: TITLE (or SUBTITLE)
   times:
     fade-in: 20
     stay: 100
@@ -99,7 +99,7 @@ destination:
 
 | Поле       | Пояснение                            |
 |------------|--------------------------------------|
-| `fade-in`  | Время в тиках на появление сообщения |
-| `stay`     | Время в тиках на удержание сообщения |
-| `fade-out` | Время в тиках на удаления сообщения  |
+| `fade-in`  | Time in ticks for message appearance |
+| `stay`     | Time in ticks to hold a message      |
+| `fade-out` | Time in ticks to delete a message    |
 :::

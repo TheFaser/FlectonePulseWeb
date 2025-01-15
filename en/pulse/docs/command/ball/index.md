@@ -1,16 +1,16 @@
-# Комманда /ball
-Путь `command.yml > ball`
+# Command /ball
+Path `command.yml > ball`
 
-## Пояснение
-Комманда для того, чтобы задать вопрос Магическому Шару
+## Explanation
+The command to ask the Magic Ball a question
 ![command ball](/commandball.png)
 
-## Редактирование
+## Editing
 ```yaml
 <command.ball>
 ```
 
-### По умолчанию
+### Default 
 ```yaml
 ball:
   enable: true
@@ -25,10 +25,10 @@ ball:
     enable: false
 ```
 
-## Параметры
+## Options
 
-- [Локализация](/docs/localizations/ru_ru/command/ball/)
-- [Права](/docs/permission/command/ball/)
+- [localisation](/docs/localizations/ru_ru/command/ball/)
+- [Permission](/docs/permission/command/ball/)
 
 <!--@include: @/parts/range.md-->
 <!--@include: @/parts/aliases.md-->

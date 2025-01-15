@@ -1,3 +1,3 @@
 ### `random`
 
-Если включено, то сообщения будут выбираться случайным образом, иначе по порядку
+If enabled, the messages will be selected randomly, otherwise in order

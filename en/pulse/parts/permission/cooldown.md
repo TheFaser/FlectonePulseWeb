@@ -1,7 +1,7 @@
 ### `cooldown-bypass`
 
-Право для игнорирования задержки между использованиями
+Permission to ignore the delay between uses
 
-::: details Настройка
+::: details Setting
 <!--@include: @/parts/permission/permissionTier4.md-->
 :::

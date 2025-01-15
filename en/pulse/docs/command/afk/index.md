@@ -1,20 +1,20 @@
-# Комманда /afk
-Путь `command.yml > afk`
+# Command /afk
+Path `command.yml > afk`
 
-## Пояснение
-Комманда для смены режима AFK
+## Explanation
+Command to change AFK mode
 ![afk](/afkglobalmessage.png)
 
-::: danger ВНИМАТЕЛЬНО
-Комманда не будет работать, если модуль [`AFK`](/docs/message/contact/afk/) выключен
+::: danger WARNING
+Command will not work if the module [`AFK`](/docs/message/contact/afk/) disabled
 :::
 
-## Редактирование
+## Editing
 ```yaml
 <command.afk>
 ```
 
-### По умолчанию
+### Default
 ```yaml
 afk:
   enable: true
@@ -26,9 +26,9 @@ afk:
     enable: false
 ```
 
-## Параметры
+## Options
 
-- [Права](/docs/permission/command/afk/)
+- [Permission](/docs/permission/command/afk/)
 
 <!--@include: @/parts/enable.md-->
 <!--@include: @/parts/aliases.md-->

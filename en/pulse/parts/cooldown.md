@@ -1,18 +1,18 @@
 ### `cooldown`
 
-Задержка использования
+Cooldown uses
 
 | Поле       | Тип       | Пояснение                                                                                                 |
 |------------|-----------|-----------------------------------------------------------------------------------------------------------|
-| `enable`   | `boolean` | Включает работу задержки                                                                                  |
-| `duration` | `long`    | Сколько должно пройти [тиков](https://ru.minecraft.wiki/w/%D0%A2%D0%B0%D0%BA%D1%82) между использованиями |
+| `enable`   | `boolean` | Enables cooldown operation                                                                                |
+| `duration` | `long`    | How many [ticks](https://ru.minecraft.wiki/w/%D0%A2%D0%B0%D0%BA%D1%82) must elapse between uses           |
 
 
-::: tip КАК ИСПОЛЬЗОВАТЬ ЗАДЕРЖКУ?
-Замени `false` на `true` и перезапусти `FlectonePulse` с помощью комманды `/flectonepulse reload`. Дополнительные параметры для настройки задержки появятся ПОСЛЕ ПЕРЕЗАГРУЗКИ
+::: tip HOW USE COOLDOWN?
+Replace `false` to `true` and restart `FlectonePulse` by mean of command `/flectonepulse reload`. Additional parameters for delay settings will appear AFTER RESET
 :::
 
-В итоге настройка задержки выглядит так
+Cooldown setting looks like this
 ```yaml
 cooldown:
   enable: true

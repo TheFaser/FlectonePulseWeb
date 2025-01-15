@@ -1,12 +1,12 @@
-Можно создавать и использовать свои локализации, для этого:
-1. Скопируй один из [файлов](/docs/localizations/)
-2. Переименуй его, желательно так, как в [игре](https://minecraft.wiki/w/Language)
-3. Теперь можно изменять любые сообщения внутри этого файла
+You can create and use your own localizations, for this:
+1. Copy one of the [files](/docs/localizations/)
+2. Rename it, preferably as in [game](https://minecraft.wiki/w/Language)
+3. You can now modify any messages within this file
 
-::: tip Пример
-Я хочу перевести плагин на Беларуский
-1. Копирую файл `ru_ru.yml`
-2. Переименовываю его в `be_by.yml`
+::: tip Example
+I want to translate the plugin into Belarusian
+1. Copying the file `en_en.yml`
+2. Renaming it to `be_by.yml`
    ![locale](/locale.png)
-3. Готово!
+3. Done!
    :::

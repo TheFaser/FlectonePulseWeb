@@ -1,16 +1,16 @@
-# Комманда /broadcast
-Путь `command.yml > broadcast`
+# Command /broadcast
+Path `command.yml > broadcast`
 
-## Пояснение
-Комманда для глобального оповещения
+## Explanation
+Command for global alerting
 ![command broadcast](/commandbroadcast.png)
 
-## Редактирование
+## Editing
 ```yaml
 <command.broadcast>
 ```
 
-### По умолчанию
+### Default
 ```yaml
 broadcast:
   enable: true
@@ -25,10 +25,10 @@ broadcast:
     enable: false
 ```
 
-## Параметры
+## Options
 
-- [Локализация](/docs/localizations/ru_ru/command/banlist/)
-- [Права](/docs/permission/command/banlist/)
+- [localisation](/docs/localizations/ru_ru/command/banlist/)
+- [Permission](/docs/permission/command/banlist/)
 
 <!--@include: @/parts/enable.md-->
 <!--@include: @/parts/range.md-->

@@ -1,0 +1,10 @@
+:root {
+    --main-text-color: #ffffff;
+    --main-bg-color: #1b1b1b;
+    --secondary-bg-color: lch(from var(--main-bg-color) calc(l + 2) c h);
+    --blue-color: #298dff;
+    --filter: opacity(40%);
+    --filter-hover: opacity(60%);
+    --hover-blue-color: lch(from var(--blue-color) calc(l + 4) c h);
+    --hover-bg-color: lch(from var(--secondary-bg-color) calc(l + 2) c h);
+}

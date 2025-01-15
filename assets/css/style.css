@@ -9,8 +9,8 @@
 
 body {
     font-family: montserrat, sans-serif;
-    background-color: #1b1b1b;
-    color: rgb(255, 255, 255);
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,22 +30,6 @@ main {
     height: 3rem;
 }
 
-.button {
-    width: 3rem;
-    border-radius: .7rem;
-    height: 3rem;
-    background-color: #0077ff;
-    border: none;
-    cursor: pointer;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.button:hover {
-    background-color: #298dff;
-}
 
 .header {
     display: flex;
@@ -61,7 +45,7 @@ main {
     justify-content: center;
 }
 .panel-button {
-    background-color: #242424;
+    background-color: var(--secondary-bg-color);
     border-radius: 0.5rem;
     display: flex;
     align-items: center;
@@ -69,15 +53,16 @@ main {
     width: 2rem;
     height: 2rem;
     justify-content: center;
+    border: none;
 }
 .panel-image {
     width: 1.2rem;
-    filter: opacity(40%);
+    filter: var(--filter);
 }
 .panel-button:hover {
-    background-color: #292929;
+    background-color: var(--hover-bg-color);
     .panel-image {
-        filter: opacity(70%);
+        filter: var(--filter-hover);
     }
 }
 .header-name {
@@ -89,21 +74,6 @@ main {
 .header * {
     margin-right: 0.12rem;
     margin-left: 0.12rem;
-}
-.separator {
-    height: 1rem;
-    width: 2px;
-    background-color: white;
-}
-.description {
-    position: absolute;
-    bottom: -2.5rem;
-    width: 100%;
-    height: 5vh;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .title {
@@ -129,10 +99,8 @@ main {
     width: 30rem;
     margin: 1rem;
     text-decoration: none;
-    color: white;
     flex-direction: column;
-    /*border: #3e3e3e 2px solid;*/
-    background-color: #222222;
+    background-color: var(--secondary-bg-color);
     border-radius: .7rem;
     transition: .2s;
     height: 16rem;
@@ -144,8 +112,7 @@ main {
     justify-content: space-around;
     margin: 1rem;
     text-decoration: none;
-    color: white;
-    background-color: #222222;
+    background-color: var(--secondary-bg-color);
     border-radius: .7rem;
     transition: .2s;
     height: 16rem;
@@ -170,9 +137,9 @@ main {
     width: 14rem;
 }
 .pulse-button {
-    background-color: #298dff;
+    background-color: var(--blue-color);
     text-decoration: none;
-    color: white;
+    color: #c1dcff;
     height: 2rem;
     width: 12rem;
     border-radius: .5rem;
@@ -182,14 +149,14 @@ main {
     font-weight: 500;
 }
 .pulse-button:hover {
-    background-color: #4c9eff;
+    background-color: var(--hover-blue-color);
 }
 .site:hover {
-    background-color: #252525;
+    background-color: var(--hover-bg-color);
 }
 
 b {
-    color: #298dff;
+    color: var(--blue-color);
 }
 .s1 {
     justify-content: center;
@@ -233,11 +200,11 @@ b {
     background-color: #262626;
 }
 
-.flectonemix {
+.preview-text {
     top: 0;
     width: 100%;
     height: 2rem;
-    color: white;
+    color: var(--main-text-color);
     display: flex;
     font-size: 1rem;
     justify-content: center;

@@ -14,9 +14,12 @@
 mention:
   name: "flectonepulse.module.message.format.mention"
   type: TRUE
+  group:
+    name: "flectonepulse.module.message.format.mention.group"
+    type: OP
   bypass:
     name: "flectonepulse.module.message.format.mention.bypass"
-    type: OP
+    type: NOT_OP
   sound:
     name: "flectonepulse.module.message.format.mention.sound"
     type: TRUE
@@ -28,6 +31,14 @@ mention:
 - [Локализация](/docs/localizations/ru_ru/message/format/mention/)
 
 <!--@include: @/parts/permission/permissionTier3.md-->
+
+### `group`
+
+Право для упоминания донатной группы, например `@default`
+
+::: details Настройка
+<!--@include: @/parts/permission/permissionTier4.md-->
+:::
 
 ### `bypass`
 

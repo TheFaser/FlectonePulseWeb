@@ -15,8 +15,16 @@
 mention:
   enable: true
   trigger: "@"
+  destination:
+    type: TOAST
+    icon: "minecraft:diamond"
+    style: TASK
   sound:
     enable: true
+    volume: 0.1
+    pitch: 0.1
+    category: "NEUTRAL"
+    name: "minecraft:entity.experience_orb.pickup"
 ```
 
 ## Параметры
@@ -34,4 +42,5 @@ mention:
 ![mention](/mention.png)
 :::
 
+<!--@include: @/parts/destination.md-->
 <!--@include: @/parts/sound.md-->

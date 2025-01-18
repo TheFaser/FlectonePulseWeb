@@ -17,6 +17,7 @@
 bubble:
   enable: true
   new-system: true
+  distance: 30.0
   line-width: 200
   read-speed: 100.0
   handicap-chars: 10.0
@@ -47,6 +48,10 @@ long duration = (countWords + handicapChars) / readSpeed * 1200;
 ::: warning ПРЕДУПРЕЖДЕНИЕ
 Это будет работать только на серверах 1.19.4 и выше
 :::
+
+### `distance`
+
+Дальность отображения сообщений над головой от отправителя
 
 ### `line-width`
 

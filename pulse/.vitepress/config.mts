@@ -440,7 +440,6 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Дискорд', link: '/docs/integration/discord/' },
-          { text: 'InteractiveChat', link: '/docs/integration/interactivechat/' },
           { text: 'LuckPerms', link: '/docs/integration/luckperms/' },
           { text: 'PlaceholderAPI', link: '/docs/integration/placeholderapi/' },
           { text: 'PlasmoVoice', link: '/docs/integration/plasmovoice/' },
@@ -606,7 +605,6 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: 'Дискорд', link: '/docs/permission/integration/discord/' },
-              { text: 'InteractiveChat', link: '/docs/permission/integration/interactivechat/' },
               { text: 'LuckPerms', link: '/docs/permission/integration/luckperms/' },
               { text: 'PlaceholderAPI', link: '/docs/permission/integration/placeholderapi/' },
               { text: 'PlasmoVoice', link: '/docs/permission/integration/plasmovoice/' },

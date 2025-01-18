@@ -12,6 +12,7 @@
 ### По умолчанию
 ```yaml
 mention:
+  person: "<fcolor:2>Тебя упомянули!"
   format: "<fcolor:2>@<player></fcolor>"
 ```
 
@@ -19,6 +20,10 @@ mention:
 
 - [Сообщения](/docs/message/format/mention/)
 - [Права](/docs/permission/message/format/mention/)
+
+### `person`
+
+Сообщение игроку при упоминании
 
 ### `format`
 

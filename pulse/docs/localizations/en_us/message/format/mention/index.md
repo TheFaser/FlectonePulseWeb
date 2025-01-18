@@ -12,13 +12,18 @@
 ### По умолчанию
 ```yaml
 mention:
-  format: "<fcolor:2>@<player></fcolor>"
+  person: "<fcolor:2>You were mentioned"
+  format: "<fcolor:2>@<target></fcolor>"
 ```
 
 ## Параметры
 
 - [Сообщения](/docs/message/format/mention/)
 - [Права](/docs/permission/message/format/mention/)
+
+### `person`
+
+Сообщение игроку при упоминании
 
 ### `format`
 

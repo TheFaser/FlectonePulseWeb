@@ -16,8 +16,8 @@ kick:
   null-player: "<color:#ff7171><b>⁉</b> Игрок не найден"
   reasons:
     default: "Исключён модератором"
-  global: "<color:#ff7171><br>⏵ Игрок <target> был исключён <br>⏵ Причина: <message> <br>⏵ Модератор: <display_name><br>"
-  player: "<color:#ff7171>☠ Ты исключён модератором <moderator> <br>Причина: <message>"
+  server: "<color:#ff7171>🔒 <fcolor:2><moderator></fcolor> исключил <fcolor:2><player></fcolor> <fcolor:1><hover:show_text:\"<fcolor:1>Айди: <id><br>Дата: <date><br>Модератор: <moderator><br>Причина: <reason>\">[ПОДРОБНЕЕ]</hover>"
+  person: "<color:#ff7171>🔒 КИК 🔒 <fcolor:1><br><br>Айди: <id><br><br>Дата: <date><br><br>Модератор: <moderator><br><br>Причина: <reason>"
 ```
 
 ## Параметры
@@ -43,11 +43,11 @@ random_kek: "Random reason"
 
 :::
 
-### `global`
+### `server`
 
 Сообщение для всех
 
-### `player`
+### `person`
 
 Сообщение для игрока
 

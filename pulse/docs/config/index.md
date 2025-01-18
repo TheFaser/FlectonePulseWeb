@@ -11,12 +11,13 @@
 ### По умолчанию
 ```yaml
 console: "Console"
-version: "0.2.1"
+version: "0.3.0"
 language: "en_us"
 language-player: true
 metrics: true
 bungeecord: false
 velocity: false
+clusters: []
 log-filter:
    - "Paper Async Command Builder"
    - "Caught previously unhandled exception :"
@@ -30,6 +31,7 @@ database:
    port: "3306"
    user: "root"
    password: "1234"
+   parameters: "?autoReconnect=true&useSSL=false&useUnicode=true&characterEncoding=UTF-8"
 
 module:
    enable: true
@@ -98,6 +100,21 @@ module:
 3. Перезапусти **Velocity** и сервера, где стоит **FlectonePulse**
    :::
 
+### `clusters`
+
+Список кластеров, к которым должен быть подключён сервер. Используется только когда включён режим прокси. 
+Если список пустой, то сервер получает все сообщения с других серверов
+
+::: tip КАК ИСПОЛЬЗОВАТЬ?
+Нужно вписать название кластера на серверах, где сообщение будет получено или отправлено
+```yaml
+clusters: 
+   - "test_cluster"
+```
+
+Так сервера связываются между собой и сообщения будут только между ними
+:::
+
 ### `log-filter`
 
 Идея взята [отсюда](https://github.com/Whitescan/ConsoleFilter/blob/master/src/main/java/dev/whitescan/consolefilter/share/LogFilter.java), спасибо @Whitescan
@@ -112,6 +129,8 @@ module:
 :::
 
 ### `database`
+
+Можно использовать environment variables, например `${VALUE}`
 
 ::: details Настройка датабазы
 
@@ -140,6 +159,11 @@ module:
 #### `password` (для MySQL)
 
 Пароль для подключения к базе данных
+
+#### `parameters` (для MySQL)
+
+Параметры подключения к базе данных
+
 :::
 
 ### module

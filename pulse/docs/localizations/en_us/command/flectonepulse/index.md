@@ -14,7 +14,8 @@
 ```yaml
 flectonepulse:
   format-false: "<color:#ff7171>★ An has error occurred while reloading"
-  format-true: "<fcolor:2>★ Plugin successfully reloaded!"
+  format-true: "<fcolor:2>★ <u>FlectonePulse</u> successfully reloaded! (<i><time></i>)"
+  format-true-text: "<fcolor:2>★ IMPORTANT! <br>Only texts have been updated, for a FULL reload you need to use: <br><fcolor:1>/flectonepulse reload"
 ```
 
 ## Параметры
@@ -28,5 +29,9 @@ flectonepulse:
 
 ### `format-true`
 
-Формат сообщения, которое будет отправлено
+Формат сообщения, которое будет отправлено при перезагрузке всего `FlectonePulse`
+
+### `format-true-text`
+
+Форма сообщения, которое будет отправлено при перезагрузке текста
 

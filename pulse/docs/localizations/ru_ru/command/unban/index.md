@@ -15,7 +15,7 @@
 unban:
   null-player: "<color:#ff7171><b>⁉</b> Игрок не найден"
   not-banned: "<color:#ff7171><b>⁉</b> Игрок не заблокирован"
-  format: "<color:#98FB98>☻ Игрок <display_name> разблокирован"
+  format: "<color:#98FB98>🔓 <fcolor:2><moderator></fcolor> разблокировал игрока <fcolor:2><player></fcolor>"
 ```
 
 ## Параметры

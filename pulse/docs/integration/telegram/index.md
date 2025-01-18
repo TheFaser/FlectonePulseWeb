@@ -42,7 +42,7 @@ telegram:
 
 ### `token`
 
-[Токен](https://core.telegram.org/bots/faq#how-do-i-create-a-bot) бота для подключения
+[Токен](https://core.telegram.org/bots/faq#how-do-i-create-a-bot) бота для подключения. Можно использовать environment variables, например `${VALUE}`
 
 ### `message-channel`
 
@@ -50,7 +50,9 @@ telegram:
 
 ::: tip Например я хочу, чтобы из Minecraft отправлялось сообщение комманды `/ban` в Telegram
 1. Копирую айди чата, в которое нужно отправить сообщение (`-1002341720267_49`)
-![telegram id](/telegramid.png)
+
+Если бот подключён и добавлен в канал, то можно использовать команду `/id` в телеграме, чтобы узнать айди канала
+
 2. Прописываю:
 ```yaml
 message-channel:

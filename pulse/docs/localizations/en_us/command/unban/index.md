@@ -15,7 +15,7 @@
 unban:
   null-player: "<color:#ff7171><b>⁉</b> This player does not exist"
   not-banned: "<color:#ff7171><b>⁉</b> This player is not banned"
-  format: "<color:#98FB98>☻ Player <display_name> unbanned"
+  format: "<color:#98FB98>🔓 <fcolor:2><moderator></fcolor> unbanned the player <fcolor:2><player></fcolor>"
 ```
 
 ## Параметры

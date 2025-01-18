@@ -17,8 +17,8 @@ warn:
   null-time: "<color:#ff7171><b>⁉</b> Incorrect time"
   reasons:
     default: "You have been warned on this server"
-  global: "<color:#ff7171><br>⏵ Player <target> has been warned for <time> <br>⏵ Reason: <message> <br>⏵ Moderator: <display_name><br>"
-  player: "<color:#ff7171>☠ You are warned, <time> left. Reason: <message>"
+  server: "<color:#ff7171>🔒 <fcolor:2><moderator></fcolor> was warned player <fcolor:2><player></fcolor> <fcolor:1><hover:show_text:\"<fcolor:1>ID: <id><br>Date: <date><br>Time: <time><br>Remaining time: <time_left><br>Moderator: <moderator><br>Reason: <reason>\">[INFO]</hover>"
+  person: "<color:#ff7171>🔒 You are warned a <time>"
 ```
 
 ## Параметры
@@ -47,11 +47,11 @@ random_kek: "Random reason"
 Если причина не указана, будет использоваться `default`
 :::
 
-### `global`
+### `server`
 
 Сообщение для всех
 
-### `player`
+### `person`
 
 Сообщение для игрока
 

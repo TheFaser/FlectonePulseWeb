@@ -15,7 +15,7 @@
 unmute:
   null-player: "<color:#ff7171><b>⁉</b> Игрок не найден"
   not-muted: "<color:#ff7171><b>⁉</b> Игрок не замучен"
-  format: "<color:#98FB98>☻ Игрок <display_name> размучен"
+  format: "<color:#98FB98>🔓 <fcolor:2><moderator></fcolor> размутил игрока <fcolor:2><player></fcolor>"
 ```
 
 ## Параметры

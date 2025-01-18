@@ -15,18 +15,11 @@
 ban:
   null-player: "<color:#ff7171><b>⁉</b> This player does not exist"
   null-time: "<color:#ff7171><b>⁉</b> Incorrect time"
-  temporarily:
-    connection-attempt: "<color:#ff7171>☠ Banned <target> tried to log in, <time> left"
-    global: "<color:#ff7171><br>⏵ Player <target> has been banned for <time> <br>⏵ Reason: <message> <br>⏵ Moderator: <display_name><br>"
-    player: "<color:#ff7171>☠ You are banned, <time> left <br>Reason: <message>"
-    reasons:
-      default: "You have been banned from this server"
-  permanent:
-    connection-attempt: "<color:#ff7171>☠ Permanently banned <target> tried to log in"
-    global: "<color:#ff7171><br>⏵ Player <target> has been banned permanently <br>⏵ Reason: <message> <br>⏵ Moderator: <display_name><br>"
-    player: "<color:#ff7171>☠ You are banned permanently <br>Reason: <message>"
-    reasons:
-      default: "You have been banned permanent from this server"
+  reasons:
+    default: "You have been banned from this server"
+  server: "<color:#ff7171>🔒 <fcolor:2><moderator></fcolor> was banned player <fcolor:2><player></fcolor> <fcolor:1><hover:show_text:\"<fcolor:1>ID: <id><br>Date: <date><br>Time: <time><br>Remaining time: <time_left><br>Moderator: <moderator><br>Reason: <reason>\">[INFO]</hover>"
+  person: "<color:#ff7171>🔒 BAN 🔒<fcolor:1><br><br>Date: <date><br><br>Time: <time><br><br>Remaining time: <time_left><br><br>Moderator: <moderator><br><br>Reason: <reason>"
+  connection-attempt: "<color:#ff7171>🔒 Banned <fcolor:2><player></fcolor> tried to log in <fcolor:1><hover:show_text:\"<fcolor:1>ID: <id><br>Date: <date><br>Time: <time><br>Remaining time: <time_left><br>Moderator: <moderator><br>Reason: <reason>\">[INFO]</hover>"
 ```
 
 ## Параметры
@@ -42,22 +35,6 @@ ban:
 
 Сообщение, если введено невозможное время
 
-### `temporarily`
-
-::: details Сообщения для временной блокировки
-
-#### `connection-attempt`
-
-Сообщение, если заблокированный игрок пытался подключиться
-
-#### `global`
-
-Сообщение для всех
-
-#### `player`
-
-Сообщение для игрока
-
 #### `reasons`
 
 Список с ключами и значениями, где ключом является слово, а значением конкретная причина
@@ -69,36 +46,17 @@ random_kek: "Random reason"
 Тогда если я напишу `/ban player 1d random_kek`, то причиной будет `Random reason`
 
 Если причина не указана, будет использоваться `default`
-
 :::
 
-### `permanent`
+#### `server`
 
-::: details Сообщения для блокировки навсегда
+Сообщение для всех
+
+#### `person`
+
+Сообщение для игрока
 
 #### `connection-attempt`
 
 Сообщение, если заблокированный игрок пытался подключиться
-
-#### `global`
-
-Сообщение для всех
-
-#### `player`
-
-Сообщение для игрока
-
-#### `reasons`
-
-Список с ключами и значениями, где ключом является слово, а значением конкретная причина
-
-::: tip Можно вписывать свои причины, например
-```yaml
-random_kek: "Random reason"
-```
-Тогда если я напишу `/ban player random_kek`, то причиной будет `Random reason`
-
-Если причина не указана, будет использоваться `default`
-
-:::
 

@@ -16,8 +16,8 @@ kick:
   null-player: "<color:#ff7171><b>⁉</b> This player does not exist"
   reasons:
     default: "Kicked by an operator"
-  global: "<color:#ff7171><br>⏵ Player <target> was kicked <br>⏵ Reason: <message> <br>⏵ Moderator: <display_name><br>"
-  player: "<color:#ff7171>☠ You were kicked by <moderator> <br>Reason: <message>"
+  server: "<color:#ff7171>🔒 <fcolor:2><moderator></fcolor> was kicked player <fcolor:2><player></fcolor> <fcolor:1><hover:show_text:\"<fcolor:1>ID: <id><br>Date: <date><br>Moderator: <moderator><br>Reason: <reason>\">[INFO]</hover>"
+  person: "<color:#ff7171>🔒 KICK 🔒 <fcolor:1><br><br>ID: <id><br><br>Date: <date><br><br>Moderator: <moderator><br><br>Reason: <reason>"
 ```
 
 ## Параметры
@@ -43,11 +43,11 @@ random_kek: "Random reason"
 
 :::
 
-### `global`
+### `server`
 
 Сообщение для всех
 
-### `player`
+### `person`
 
 Сообщение для игрока
 

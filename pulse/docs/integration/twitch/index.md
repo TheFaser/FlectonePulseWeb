@@ -45,12 +45,12 @@ twitch:
 
 ### `client-id`
 
-[Идентификатор](https://twitchtokengenerator.com/) пользователя
+[Идентификатор](https://twitchtokengenerator.com/) пользователя. Можно использовать environment variables, например `${VALUE}`
 ![client id](/twitchclientid.png)
 
 ### `token`
 
-[Токен](https://twitchtokengenerator.com/) пользователя для подключения
+[Токен](https://twitchtokengenerator.com/) пользователя для подключения. Можно использовать environment variables, например `${VALUE}`
 ![token](/twitchtoken.png)
 
 ### `message-channel`

@@ -34,10 +34,6 @@ discord:
           icon-url: "https://mc-heads.net/avatar/<skin>/16.png"
         description: ""
         thumbnail: ""
-        fields:
-          - anme: ""
-            value: ""
-            inline: "false"
         image: ""
         timestamp: true
         footer:
@@ -150,10 +146,6 @@ discord:
 ##### `thumbnail`
 
 Маленькое изображение внутри `embed` сообщения
-
-##### `fields`
-
-Список полей внутри `embed` сообщения
 
 ###### `name`
 

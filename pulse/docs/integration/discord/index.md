@@ -54,7 +54,7 @@ discord:
 
 ### `token`
 
-[Токен](https://discordgsm.com/guide/how-to-get-a-discord-bot-token) дискорд бота для подключения
+[Токен](https://discordgsm.com/guide/how-to-get-a-discord-bot-token) дискорд бота для подключения. Можно использовать environment variables, например `${VALUE}`
 
 ### `presence`
 

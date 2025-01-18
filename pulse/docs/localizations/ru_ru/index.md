@@ -14,6 +14,7 @@
 cooldown: "<color:#ff7171><b>⁉</b> Слишком быстро, попробуй через <time>"
 time:
   format: "dd'д' HH'ч' mm'м' ss.SSS'с'"
+  permamnent: "НАВСЕГДА"
   zero: "0с"
 ```
 
@@ -33,6 +34,10 @@ time:
 #### `format`
 
 Форматирование времени ([Apache DurationFormatUtils](https://commons.apache.org/proper/commons-lang/apidocs/org/apache/commons/lang3/time/DurationFormatUtils.html))
+
+#### `permanent`
+
+Форматирование времени, если оно `-1` т.е. навсегда
 
 #### `zero`
 

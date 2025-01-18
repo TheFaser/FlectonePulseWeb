@@ -15,7 +15,7 @@
 unmute:
   null-player: "<color:#ff7171><b>⁉</b> This player does not exist"
   not-muted: "<color:#ff7171><b>⁉</b> This player is not muted"
-  format: "<color:#98FB98>☻ Player <display_name> unmuted"
+  format: "<color:#98FB98>🔓 <fcolor:2><moderator></fcolor> unmutted the player <fcolor:2><player></fcolor>"
 ```
 
 ## Параметры

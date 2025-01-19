@@ -4,7 +4,7 @@
 *{
     margin: 0;
     padding: 0;
-    transition: 0.1s;
+
 }
 
 body {
@@ -30,6 +30,10 @@ main {
     height: 3rem;
 }
 
+.header * {
+    margin-right: 0.12rem;
+    margin-left: 0.12rem;
+}
 
 .header {
     display: flex;
@@ -48,16 +52,19 @@ main {
     background-color: var(--secondary-bg-color);
     border-radius: 0.5rem;
     display: flex;
+    transition: .1s;
     align-items: center;
     padding: 0.2rem;
     width: 2rem;
     height: 2rem;
     justify-content: center;
     border: none;
+    margin-right: 0.24rem;
 }
 .panel-image {
     width: 1.2rem;
     filter: var(--filter);
+    user-select: none;
 }
 .panel-button:hover {
     background-color: var(--hover-bg-color);
@@ -70,10 +77,6 @@ main {
     justify-content: center;
     align-items: center;
     height: 2rem;
-}
-.header * {
-    margin-right: 0.12rem;
-    margin-left: 0.12rem;
 }
 
 .title {
@@ -102,7 +105,7 @@ main {
     flex-direction: column;
     background-color: var(--secondary-bg-color);
     border-radius: .7rem;
-    transition: .2s;
+    transition: .1s;
     height: 16rem;
 }
 .pulse {
@@ -114,7 +117,7 @@ main {
     text-decoration: none;
     background-color: var(--secondary-bg-color);
     border-radius: .7rem;
-    transition: .2s;
+    transition: .1s;
     height: 16rem;
 }
 .pulse h1 {
@@ -147,6 +150,7 @@ main {
     justify-content: center;
     align-items: center;
     font-weight: 500;
+    transition: .1s;
 }
 .pulse-button:hover {
     background-color: var(--hover-blue-color);

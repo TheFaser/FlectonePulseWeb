@@ -5,7 +5,7 @@
     <title>Flectone</title>
     <link rel="shortcut icon" href="../assets/images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="../assets/css/dark.css">
+    <link rel="stylesheet" href="../assets/css/dark.css" id="themeHref">
 <body>
 <div class="header">
     <div class="header-name">
@@ -13,8 +13,8 @@
         <h1 class="title">Flectone</h1>
     </div>
     <div class="header-panel">
-        <a href="../" class="panel-button"><img class="panel-image" src="../assets/images/translate.svg" alt=""></a>
-        <a class="panel-button"><img class="panel-image" src="../assets/images/sun.svg"></a>
+        <a href="../" class="panel-button"><img class="panel-image" src="../assets/images/translate.svg" alt="language"></a>
+        <a onclick=switchLinkElement('../assets/css/dark.css','../assets/css/light.css') class="panel-button"><img class="panel-image" alt="sun" src="../assets/images/sun.svg" id="theme"></a>
     </div>
 </div>
 <div class="sites">
@@ -65,7 +65,8 @@
                 <img class="squaree" src="../assets/images/flectonechat.gif" alt="">
             </div>
         </div>
-
     </a>
 </div>
-</body></html>
+<script src="../assets/js/theme.js"></script>
+</body>
+</html>

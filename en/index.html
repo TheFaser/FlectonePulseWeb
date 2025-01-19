@@ -4,8 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flectone</title>
     <link rel="shortcut icon" href="../assets/images/logo.png" type="image/x-icon">
-    <link rel="stylesheet" id="style" href="../assets/css/style.css">
-</head>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/dark.css" id="themeHref">
 <body>
 <div class="header">
     <div class="header-name">
@@ -13,7 +13,8 @@
         <h1 class="title">Flectone</h1>
     </div>
     <div class="header-panel">
-        <a href="../" class="panel-button"><img class="panel-image" src="../assets/images/translate.svg" alt=""></a>
+        <a href="../" class="panel-button"><img class="panel-image" src="../assets/images/translate.svg" alt="language"></a>
+        <a onclick=switchLinkElement('../assets/css/dark.css','../assets/css/light.css') class="panel-button"><img class="panel-image" alt="sun" src="../assets/images/sun.svg" id="theme"></a>
     </div>
 </div>
 <div class="sites">
@@ -28,7 +29,7 @@
 </div>
 <div class="sites">
     <a class="site mix" href="../en/mix/">
-        <h3 class="flectonemix">FlectoneMix</h3>
+        <h3 class="preview-text">FlectoneMix</h3>
         <div style="display: flex">
             <div class="s1">
                 <img src="../assets/images/logo.png" alt="" style="width: 6.5rem;">
@@ -47,7 +48,7 @@
         </div>
     </a>
     <a class="site chat" href="../en/chat/">
-        <h3 class="flectonemix">FlectoneChat</h3>
+        <h3 class="preview-text">FlectoneChat</h3>
         <div style="display: flex">
             <div class="s1">
                 <img src="../assets/images/logo.png" alt="" style="width: 6.5rem;">
@@ -64,7 +65,8 @@
                 <img class="squaree" src="../assets/images/flectonechat.gif" alt="">
             </div>
         </div>
-
     </a>
 </div>
-</body></html>
+<script src="../assets/js/theme.js"></script>
+</body>
+</html>

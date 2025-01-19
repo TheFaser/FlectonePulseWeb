@@ -15,6 +15,7 @@
 ```yaml
 name-:
   enable: true
+  team: true
   visible: false
   color: "<white>"
 ```
@@ -25,6 +26,10 @@ name-:
 - [Права](/docs/permission/message/format/name/)
 
 <!--@include: @/parts/enable.md-->
+
+### `team`
+
+Включает или выключает работу `scoreboard` команд
 
 ### `visible`
 
